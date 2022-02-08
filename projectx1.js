@@ -1,7 +1,7 @@
 const input = document.getElementById('pass'); //getElementById from HTML
 const message = "password accept";
 const messageBad = "wrong password";
-const password = "admin";
+const password = "admin"; // password
 
 input.addEventListener('input', (e)=> {
     console.log(e.target.value)
@@ -14,7 +14,7 @@ input.addEventListener('input', (e)=> {
 })
 
 //FOCUS
-input.addEventListener('focus', (e)=>{
+input.addEventListener('focus', (e)=>{ //change backgroud color when write password
     e.target.classList.add('active');
 })
 
