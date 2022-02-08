@@ -12,3 +12,7 @@ input.addEventListener('input', (e)=> {
         document.querySelector('div').textContent=messageBad;
     }
 })
+
+input.addEventListener('focus', ()=>{
+
+})
