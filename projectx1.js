@@ -13,6 +13,12 @@ input.addEventListener('input', (e)=> {
     }
 })
 
-input.addEventListener('focus', ()=>{
+//FOCUS
+input.addEventListener('focus', (e)=>{
+    e.target.classList.add('active');
+})
 
+//BLUR
+input.addEventListener('blur', (e)=>{
+    e.target.classList.remove('active');
 })
